@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project @</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pacifico&family=Passions+Conflict&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="utils2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Passions+Conflict&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+   type='text/css'>
+
+   <script src="https://kit.fontawesome.com/5c70540b86.js" crossorigin="anonymous"></script>
+
+
+
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', font-awesome;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/cheerful-person-browsing-internet-laptop-computer-studio-using-portable-electronic-pc-navigate-social-media-online-website-network-happy-man-holding-wireless-gadget_482257-41055.jpg?w=2000);
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: orange;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: orange;
+    transition: 1s;
+    
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transaparent;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform .2s;
+
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color:white;
+    color: black;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+   
+
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+   
+}
+
+h4{
+   color: aqua;
+   letter-spacing: 10px;
+   font-size: 15px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display : inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    outline: none;
+
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 225px;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    box-shadow: 0px 0px 5px rgb(209, 158, 62);
+    margin: 10px;
+    transition: transform .1s;
+
+   
+}
+
+.newsletter form input:last-child:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.about img{
+    margin: 0%;
+    padding: 0%;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(227, 224, 213);
+    
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: orange;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+
+.about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: black;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color:transparent;
+    border: 2px solid  orange;
+    cursor: pointer;
+    color: black;
+}
+
+.service{
+    width: 100%;
+    padding: 100px 0px;
+    background: rgb(230, 192, 175);
+
+}
+.title h2{
+    color: orange;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+   
+}
+
+.box{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    max-width: 400px;
+    min-height: 500px;
+    padding: 60px;
+    
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:orange ;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(5, 3, 0);
+    
+}
+
+h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+
+.pra p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+
+}
+
+.card .button{
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    padding: 9px 25px;
+    transition: .4s;
+    display: block;
+    margin: 50px;
+   
+    /* margin: 50px; */
+    
+   
+}
+
+.card .button:hover{
+    background-color:transparent;
+    border: 2px solid  black;
+    cursor: pointer;
+    color: black;
+
+}
+
+.contact-me{
+    width: 100%;
+    height: max-content;
+    background: rgb(227, 224, 213);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 40px; */
+    padding: 40px;
+
+
+}
+
+.contact-me p{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bold
+
+}
+
+.contact-me .button-two{
+    text-decoration: none;
+    background: orange;
+    border-radius: 30px;
+    color: white;
+    padding: 9px 25px;
+    transition: .4s;
+
+
+}
+
+
+.social-center{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.social-center a{
+    padding: 15px;
+    background-color: white;
+    color: orange;
+    border-radius: 50%;
+    transition: transform .2s;
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 30px;
+
+
+}
+
+.social-center a:hover{
+    transform: scale(1.2);
+    color: white;
+    background: orange;
+
+
+}
+
+.contact-me .button-two:hover{
+    background: transparent;
+    border: 2px solid orange;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(36, 34, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: inline;
+    align-items: center;
+    justify-content: center ;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 29px 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+   
+}
+   </style>
+   <script> window.alert("Information Box : The Page Is Loaded successfully")
+
+    // const changeBackground = setTimeout(changetoBlack, 5000)
+    // function changetoBlack(){
+    //     const blueviolet = document.querySelector('style')
+    //     blueviolet.innerHTML = ''
+    // }
+    const changeBack = setTimeout(blueviolet, 5000)
+    function blueviolet(){
+        document.body.style.background = " rgb(36, 12, 48)"
+    }</script>
+    
+</head>
+<body>
+    <div class="hero">
+
+        <nav>
+            <h2 class="logo">Computer <span>Application</span></h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="https://www.wikipedia.org/">Wi-Fi</a></li>
+                <li><a href="https://www.wikipedia.org/">LAN</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="content">
+
+            <h4>Hello, my name is </h4>
+            <h1>Prashant <span>Pandey</span></h1>
+            <h3>This is a page to to discribe about the <br>Department</h3>
+        
+
+        <div class="newsletter">
+            <form>
+                <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                <input type="submit" name="submit" value="let's start">
+            </form>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- About section start -->
+    <hr>
+
+    <section class="about">
+        <div class="main">
+            <!-- <img class="about img" src="/img/about 2.jpg" alt=""> -->
+            <div class="about-text">
+                <h2> </h2>
+                <h5>Audio <span> & </span>Video</h5>
+
+                <iframe width="760" height="415" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <audio controls>
+                    <source src="https://upload.wikimedia.org/wikipedia/commons/5/50/Jana_gana_mana_vocal.ogg" type="audio/ogg">
+                </audio>
+                <!-- <p>I am a Front-End Developer. I can make an interest grabbing website with inetractive animations & pixel perfect Design,
+                     The code will be clean as preist's intentions. A responsive & animated design makes your website more intresting 
+                , attention grabber. Regardless of their devices. </p>
+                <button type="button">Let's Talk</button> -->
+
+
+            </div>
+        </div>
+        
+    </section>
+    
+<!-- Service Section Start -->
+    
+        <div class="service">
+            <div class="title">
+                <h2>Necessory <span>Information</span> </h2>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-solid fa-bars"></i>
+                    <h5>Duration</h5>
+                    <div class="pra"></div>
+                    <p>Bachelor of Computer Applications</strong> is a 3-year (6 semesters) programme for undergraduates seeking career in the IT industry.
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a> 
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-regular fa-user"></i>
+                    <h5>Admission Procedure</h5>
+                    <div class="pra"></div>
+                    <p>Admission in all the courses will be based on merit.A course wise merit list will be called for counselling,which eventually would lead to the admission.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a> 
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="card">
+                    <i class="fa-regular fa-bell"></i>
+                    <h5>Eligibilty</h5>
+                    <div class="pra"></div>
+                    <p> candidate must have passed 10+2 in any discipline with minimum 45% marks in aggregate from a recognized Board/ University
+                    </p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a> 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+<hr>
+
+
+<!-- Privious Projects -->
+<section></section>
+
+<!-- Contact Me -->
+        <div class="contact-me">
+            <h5>Time <span> Table </span></h5>
+            <table border="5" cellspacing="0" align="center">
+                <!--<caption>Timetable</caption>-->
+                <tr>
+                    <td align="center" height="50"
+                        width="100"><br>
+                        <b>Day/Period</b></br>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>I<br>9:00-09:50</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>II<br>09:50-10:40</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>III<br>10:40-11:30</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>11:30-12:20</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>IV<br>12:20-1:30</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>V<br>1:30-2:20</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>VI<br>2:20-3:10</b>
+                    </td>
+                    <td align="center" height="50"
+                        width="100">
+                        <b>VII<br>3:10-4:00</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Monday</b></td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-301</td>
+                    <td align="center"
+                        height="50">CA-307</td>
+                        <td rowspan="6" align="center" height="50">
+                            <h2>L<br>U<br>N<br>C<br>H</h2>
+                        </td>
+                    <td align="center" height="50">CA-302</td>
+                    <td align="center" height="50">CA-304</td>
+                    <td align="center" height="50">CA-301</td>
+        
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Tuesday</b>
+                    </td>
+                    <td align="center" height="50">CA-307</td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-302</td>
+                    <td align="center" height="50">CA-303</td>
+                    <td colspan="3" align="center" height="50">CA-310</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Wednesday</b>
+                    </td>
+                    <td align="center" height="50">CA-302</td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-304</td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-303</td>
+                    <td align="center" height="50"></td>
+                    <td align="center" height="50">CA-301</td>
+        
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Thursday</b>
+                    </td>
+                    <td align="center" height="50">CA-307</td>
+                    <td align="center" height="50"> </td>
+                    <td colspan="2" align="center" height="50">CA-312</td>
+                    <td align="center" height="50">CA-304</td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-303</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Friday</b>
+                    </td>
+                   
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-301</td>
+                    <td align="center" height="50">CA-302</td>
+                    <td align="center" height="50"> </td>
+                    <td align="center" height="50">CA-304</td>
+                    <td align="center" height="50">CA-303</td>
+                </tr>
+                <tr>
+                    <td align="center" height="50">
+                        <b>Saturday</b>
+                    </td>
+                    <td colspan="3" align="center" height="50">CA-311</td>
+                    <td align="center" height="50">CA-307</td>
+                    <td colspan="3" align="center" height="50"> </td>
+                </tr>
+            </table>
+    
+
+            
+            <!-- <p>Let Me Make You Apperciate My Work</p>
+            <a class="button-two" href="#">Hire Me</a> -->
+        </div>
+
+
+<!-- Contact Me -->
+        <div class="contact-me">
+            <p>GO TO TOP</p>
+            <a class="button-two" href="#">GOOO>>>></a>
+        </div>
+        <div class="contact-me">
+            <center>
+                <button onclick="changeToBold()"> Click Me</button>
+
+            <form action=""><br>
+                <label class="names" for="Name">Name</label><br>
+                <input type="text"><br>
+                <label for="Name">Age</label><br>
+                <input type="text"><br>
+                <label for="Name">Address</label><br>
+                <input type="text"><br>
+                <label for="Name">Favorite Singer</label><br>
+                <input type="text"><br>
+                <label for="Name">Favorite Subject</label><br>
+
+                <input type="checkbox" id="vehicle1"  >
+                <label for="vehicle1"> CA301</label>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA302</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA303</label>
+                <input type="checkbox" id="vehicle1"  >
+                <label for="vehicle1"> CA304</label><br>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA307</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA310</label>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA311</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA312</label><br>
+                <button class="b1" href = 'https://iul.ac.in/ca/'"> SUBMIT</button>
+
+            </form>
+        </center>
+        </div>
+
+        <!-- Footer Start -->
+        <footer>
+            <p>Prashant Pandey</p>
+            <div>
+            <p>To Know More About Me Follow Me On Social media</p>
+            <div class="social-center">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        </footer>
+
+
+
+    
+</body>
+</html>
